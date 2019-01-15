@@ -1,6 +1,6 @@
-package ws2.java2.driver;
+package icehs.science.workshop2.java2.driver;
 
-import ws2.java2.controller.*;
+import icehs.science.workshop2.java2.controller.*;
 
 public class VehicleDriver {
 	public static void main(String[] args) {

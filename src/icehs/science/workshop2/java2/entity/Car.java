@@ -1,4 +1,4 @@
-package ws2.java2.entity;
+package icehs.science.workshop2.java2.entity;
 
 public class Car {
 	private String modelName;

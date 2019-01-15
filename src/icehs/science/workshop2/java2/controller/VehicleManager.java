@@ -1,6 +1,6 @@
-package ws2.java2.controller;
+package icehs.science.workshop2.java2.controller;
 
-import ws2.java2.entity.*;
+import icehs.science.workshop2.java2.entity.*;
 
 public class VehicleManager {
 	Airplane[] airplaneArr;

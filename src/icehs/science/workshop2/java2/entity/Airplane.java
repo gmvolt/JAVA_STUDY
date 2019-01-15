@@ -1,20 +1,20 @@
-package ws2.java2.entity;
+package icehs.science.workshop2.java2.entity;
 
-public class Ship {
+public class Airplane {
 	private String modelName;
 	private int maxSpeed;
 	private int numberLimit;
-	private int replacement;
+	private int numOfEngine;
 	private boolean available;
 	
 	
 	
-	public Ship(String modelName, int maxSpeed, int numberLimit, int replacement) {
+	public Airplane(String modelName, int maxSpeed, int numberLimit, int numOfEngine) {
 		super();
 		this.modelName = modelName;
 		this.maxSpeed = maxSpeed;
 		this.numberLimit = numberLimit;
-		this.replacement = replacement;
+		this.numOfEngine = numOfEngine;
 	}
 
 
@@ -55,14 +55,14 @@ public class Ship {
 
 
 
-	public int getReplacement() {
-		return replacement;
+	public int getNumOfEngine() {
+		return numOfEngine;
 	}
 
 
 
-	public void setReplacement(int replacement) {
-		this.replacement = replacement;
+	public void setNumOfEngine(int numOfEngine) {
+		this.numOfEngine = numOfEngine;
 	}
 
 
@@ -84,6 +84,6 @@ public class Ship {
 		System.out.println(" 모 델 명 : " + modelName);
 		System.out.println(" 최고속도 : " + maxSpeed + "km/h");
 		System.out.println(" 최대정원 : " + numberLimit + "명");
-		System.out.println(" 배 수 량 : " + replacement + "톤");
+		System.out.println(" 엔진개수 : " + numOfEngine + "개");
 	}
 }
