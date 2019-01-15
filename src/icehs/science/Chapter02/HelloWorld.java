@@ -1,4 +1,4 @@
-package iceh.science.chapter02;
+package icehs.science.Chapter02;
 
 public class HelloWorld {
 	/*
