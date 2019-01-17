@@ -1,4 +1,4 @@
-package icehs.science.chapter03;
+package icehs.science.Chapter03;
 
 public class DataTypeHelpEx {
 
