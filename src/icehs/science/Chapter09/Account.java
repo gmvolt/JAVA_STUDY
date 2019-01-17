@@ -4,6 +4,17 @@ public class Account {
 	private String num;
 	private String name;
 	private int balance;
+	
+	
+	public Account() {
+		
+	}
+	public Account(String num, String name, int balance) {
+		this.num = num;
+		this.name = name;
+		this.balance = balance;
+	}
+	
 	public String getNum() {
 		return num;
 	}
@@ -25,8 +36,13 @@ public class Account {
 	
 	public void openAccount() {
 		System.out.println("계좌를 개설합니다.");
-		System.out.println("계좌 번호 : " + this.num);
-		System.out.println("예금주 : " + this.name);
-		System.out.println("잔액 : " + this.balance);
+		
+	}
+	
+	public String toString() {
+		String str ="계좌 번호 : " + this.num + "\n" ;
+		str += "예금주 : " + this.name + "\n"; 
+		str += "잔액 : " + this.balance + "\n";
+		return str;
 	}
 }
