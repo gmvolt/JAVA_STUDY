@@ -4,7 +4,7 @@ public class MobileTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Mobile [] mobile = {
+		/*Mobile [] mobile = {
 			new Galaxy(),
 			new IPhone()
 		};
@@ -20,6 +20,9 @@ public class MobileTest {
 		System.out.println(mobile[1].getProduction() + " : " + ((IPhone)(mobile[1])).getColor());
 		mobile[1].call(10);
 		mobile[1].charge(15);
+	}*/
+		
+		Galaxy galaxy = new Galaxy();
+		galaxy.buy("∞‘¿”", 1000);
 	}
-
 }

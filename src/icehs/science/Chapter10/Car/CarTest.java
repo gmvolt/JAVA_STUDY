@@ -1,4 +1,4 @@
-package icehs.science.Chapter10;
+package icehs.science.Chapter10.Car;
 
 
 
@@ -10,11 +10,14 @@ public class CarTest {
 				new Taxi(),
 				new Truck()
 		};
+
+		car[0].wash();
+		System.out.print("택시 : ");
+		car[0].wash();
+		System.out.print("트럭 : ");
+		car[1].wash();
 		
-		for(int i = 0 ; i < car.length ; i++) {
-			car[i].setOilSize(10);
-			car[i].go((i + 2) * 10);
-		}
+		
 	}
 
 }
